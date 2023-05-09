@@ -1,0 +1,21 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/register
+
+###
+
+//POST http://localhost:3000/login
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "danial",
+    "password": "123456"
+}
+
+###
+
+GET http://localhost:3000/bye
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRhbmlhbCIsInBhc3N3b3JkIjoiMTIzNDU2IiwibmFtZSI6IkRhbmlhbCIsImVtYWlsIjoiZGFuaWFsQGFjY291bnQiLCJpYXQiOjE2ODEzNzI3NDEsImV4cCI6MTY4MTM3MjgwMX0.kvDU3PyXy9Zhjmiivc_03KEQwq5YQ-6efTzOYntPoAw
